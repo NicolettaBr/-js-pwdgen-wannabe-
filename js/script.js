@@ -19,9 +19,10 @@ var passwordGenerata = 'La tua password è... ' + nomeUtente + cognomeUtente + c
 
 //output
 
-alert(passwordGenerata);
+document.getElementById('password').innerHTML = passwordGenerata;
 
 //prova con elementi id
-document.getElementById('saluto').innerHTML = "Benvenuti su questo sito!"
+ 
+// document.getElementById('saluto').innerHTML = "Benvenuti su questo sito!"
 
-document.getElementById('titolo').innerHTML = "Password generator"
+// document.getElementById('titolo').innerHTML = "Password generator"
