@@ -15,8 +15,13 @@ var colorePreferito = prompt( 'Qual è il tuo colore preferito?');
 
 //logica applicazione
 
-var passwordGenerata = 'La tua password è... ' + nomeUtente + cognomeUtente + colorePreferito + 21;
+var passwordGenerata = 'La tua password è... ' + nomeUtente + cognomeUtente + colorePreferito + '21';
 
 //output
 
 alert(passwordGenerata);
+
+//prova con elementi id
+document.getElementById('saluto').innerHTML = "Benvenuti su questo sito!"
+
+document.getElementById('titolo').innerHTML = "Password generator"
